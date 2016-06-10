@@ -13,6 +13,8 @@ use mikehaertl\shellcommand\Command;
 class FaceDetector{
 
     private $videoDuration;
+    private $videoDurationInSeconds;
+    private $videoName;
 
     public function __construct()
     {
@@ -34,7 +36,11 @@ class FaceDetector{
         }
     }
 
-    public function processVideo($videoFile){
+    public function processVideo($videoName){
+
+        $this->videoName = $videoName;
+
+        $videoFile = dirname(__FILE__).DIRECTORY_SEPARATOR."videos".DIRECTORY_SEPARATOR.$this->videoName;
 
         /**
          *
@@ -66,11 +72,27 @@ class FaceDetector{
         $command = new Command($ffmpegCommand);
 
         $this->grepVideoDuration($videoFile);
+        $this->saveVideoInfo();
 
         if ($command->execute()) {
 
         }
         return $this;
+    }
+
+    public function saveVideoInfo(){
+
+        $videoInfo = dirname(__FILE__).DIRECTORY_SEPARATOR.'videoInfo.json';
+
+        $videoInfoFile = fopen($videoInfo, "wr+") or die("Unable to open file!");
+        fwrite($videoInfoFile,
+            json_encode(
+                [
+                    'videoDuration' => $this->videoDurationInSeconds,
+                    'videoURL'      => DIRECTORY_SEPARATOR.'videos'.DIRECTORY_SEPARATOR.$this->videoName
+                ]
+            ));
+        fclose($videoInfoFile);
     }
 
     public function grepVideoDuration($videoFile){
@@ -80,6 +102,7 @@ class FaceDetector{
 
         if ($command->execute()) {
             $this->videoDuration = $command->getOutput();
+            $this->videoDurationInSeconds = (strtotime($this->videoDuration) - strtotime('TODAY'))+2;
         }
     }
 
@@ -143,8 +166,7 @@ class FaceDetector{
 
     }
 
-    public function comparePhotos(){
-        /**
+    public function clusterPhotos(){
         $command = new Command('/home/almasry/projects/php/FaceDetector/comparison/openface/demos/compare.py '.$file);
         if ($command->execute()) {
 
@@ -165,9 +187,6 @@ class FaceDetector{
             echo $command->getError();
             $exitCode = $command->getExitCode();
         }
-         * 
-         ***/
-
     }
 
 }

@@ -13,10 +13,10 @@ require __DIR__ . '/classifier.php';
 
 //use FaceDetector\FaceDetector;
 
-$videoFile = 'Video2.mp4';
+$videoName = 'Video2.mp4';
 
 (new FaceDetector())
-    ->processVideo( dirname(__FILE__).DIRECTORY_SEPARATOR."videos".DIRECTORY_SEPARATOR.$videoFile)
+    ->processVideo($videoName)
     ->itterateImages()
-    ->comparePhotos()
+    ->clusterPhotos()
 ;
