@@ -18,7 +18,7 @@ if 'IMREAD_GRAYSCALE' not in dir(cv2):
 
 
 # Profiles
-DATA_DIR = '/usr/share/opencv/'
+DATA_DIR = '/usr/local/share/OpenCV/'
 CASCADES = {}
 
 PROFILES = {
