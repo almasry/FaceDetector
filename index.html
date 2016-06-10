@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>MovingImage Hackday 10.6.16 - Face Detection </title>
+
+    <style>
+        .fd_mi {
+            border: 10px solid red;
+            width: 100%;
+            height: 100%;
+        }
+        .fd_logo {
+            background-color: green;
+            height: 30%;
+            padding: 5px;
+            text-align: center;
+            width: 10%;
+        }
+        .fd_player {
+            height: 444px;
+            text-align: center;
+            width: 100%;
+        }
+        .fd_images {
+            border: 1px solid blue;
+            text-align: right;
+        }
+    </style>
 </head>
+
 <body>
 
-<style>
-    .fd_mi {
-        border: 10px solid red;
-        width: 100%;
-        height: 100%;
-    }
-    .fd_logo {
-        background-color: green;
-        padding: 5px;
-    }
-</style>
-
 <div class="fd_mi">
-    <div class="fd_logo">Hello Face Detector!</div>
+    <div class="fd_logo">Face Detector -LOGO-</div>
 
-    <div>
+    <div class="fd_player">
 
-        <video height="auto"
-               width="100%"
-               preload="metadata"
-               id="face_detect"
-               style="height: 404px;">
+        <video id="face_detect_player">
             <source src="https://facedetector.mi24.tv/video1.mp4" type="video/mp4">
         </video>
+
+    </div>
+
+    <div class="fd_images">
+
+        <a href=""><img src=""> 1. picture</a>
 
     </div>
 
