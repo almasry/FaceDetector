@@ -1,9 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90b38189-a510-44a3-b616-04b0af1bd037" name="Default" comment="" />
+    <list default="true" id="90b38189-a510-44a3-b616-04b0af1bd037" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/45.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/49.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/51.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/61.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/82.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/97.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/001.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/002.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/003.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/004.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/005.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/006.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/007.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/008.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/009.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/010.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/011.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/012.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/013.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/014.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/015.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/016.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/017.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/018.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/019.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/020.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/021.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/022.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/023.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/024.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/025.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/026.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/027.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/028.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/029.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/030.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/031.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/032.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/033.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/034.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/035.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/036.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/037.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/038.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/039.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/040.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/041.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/042.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/043.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/044.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/045.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/046.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/047.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/048.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/049.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/050.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/051.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/052.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/053.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/054.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/055.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/056.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/057.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/058.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/059.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/060.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/061.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/062.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/063.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/064.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/065.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/066.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/067.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/068.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/069.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/070.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/071.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/072.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/073.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/074.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/075.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/076.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/077.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/078.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/079.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/080.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/081.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/082.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/083.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/084.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/085.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/086.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/087.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/088.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/001.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/002.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/003.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/004.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/005.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/006.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/007.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/008.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/009.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/010.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/011.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/012.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/013.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/014.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/015.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/016.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/017.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/018.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/019.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/020.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/021.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/022.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/023.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/024.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/025.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/026.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/027.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/028.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/029.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/030.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/031.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/032.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/033.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/034.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/035.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/036.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/037.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/038.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/039.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/040.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/041.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/042.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/043.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/044.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/045.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/046.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/047.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/048.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/049.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/050.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/051.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/052.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/053.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/054.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/055.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/056.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/057.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/058.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/059.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/060.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/061.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/062.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/063.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/064.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/065.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/066.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/067.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/068.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/069.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/070.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/071.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/072.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/073.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/074.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/075.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/076.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/077.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/078.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/079.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/080.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/081.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/082.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/083.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/084.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/085.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/086.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/087.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images2/088.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facedetect" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.phar" afterPath="$PROJECT_DIR$/composer.phar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FaceDetector.iml" afterPath="$PROJECT_DIR$/.idea/FaceDetector.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+    </list>
     <ignored path="FaceDetector.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +215,41 @@
   <component name="FavoritesManager">
     <favorites_list name="FaceDetector" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifier.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classifier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/classifier.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -30,9 +259,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="2625" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -60,7 +289,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -69,8 +297,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaceDetector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaceDetector" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -78,6 +317,60 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -89,35 +382,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465528893514</updated>
-      <workItem from="1465528894723" duration="182000" />
+      <workItem from="1465528894723" duration="9301000" />
+      <workItem from="1465544476841" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182000" />
+    <option name="totallyTimeSpent" value="11134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2625" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="2625" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23770039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2371476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39791667" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43854168" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34375" sideWeight="0.49806523" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23744541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -125,5 +438,106 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-ffmpeg/php-ffmpeg/src/FFMpeg/Filters/Video/VideoFilters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#7#89#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="974" column="9" selection-start-line="974" selection-start-column="9" selection-end-line="974" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/imagick.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="1734" column="20" selection-start-line="1734" selection-start-column="20" selection-end-line="1734" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-ffmpeg/php-ffmpeg/src/FFMpeg/Filters/Audio/AudioFilters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facedetect">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-ffmpeg/php-ffmpeg/src/FFMpeg/Filters/Video/VideoFilters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces/29.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces/63.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

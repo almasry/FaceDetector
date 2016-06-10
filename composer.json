@@ -8,5 +8,12 @@
             "email": "almasry@almasry.ws"
         }
     ],
-    "require": {}
+    "require": {
+        "mikehaertl/php-shellcommand": "^1.2",
+        "php-ffmpeg/php-ffmpeg": "^0.6.1"
+    },
+
+    "autoload": {
+        "psr-4": {"Acme\\": "/"}
+    }
 }
