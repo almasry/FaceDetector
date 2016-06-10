@@ -12,10 +12,13 @@
     <script type="text/javascript">
         var data;
         $(document).ready(function(e) {
-            $.getJSON( "data.json" , function( result ){
+            $.getJSON( "https://facedetector.mi24.tv/data.json" , function( result ){
+		alert(result);
                 data = result;
             });
         });
+
+
     </script>
 
     <style>
