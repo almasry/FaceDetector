@@ -12,6 +12,8 @@ use mikehaertl\shellcommand\Command;
 
 class FaceDetector{
 
+    private $videoDuration;
+
     public function __construct()
     {
         $directory[] = dirname(__FILE__).DIRECTORY_SEPARATOR."images".DIRECTORY_SEPARATOR;
@@ -59,21 +61,26 @@ class FaceDetector{
          *
          * ***/
 
-
         $imagesDir = dirname(__FILE__).DIRECTORY_SEPARATOR."images".DIRECTORY_SEPARATOR;
         $ffmpegCommand = '/usr/bin/ffmpeg -i '.$videoFile.' -r  1/1 '.$imagesDir.'$filename%03d.jpeg';
         $command = new Command($ffmpegCommand);
+
+        $this->grepVideoDuration($videoFile);
+
         if ($command->execute()) {
 
         }
-
-        print $ffmpegCommand.PHP_EOL;
-        print $command->getError();
-
-        print 1;
-
         return $this;
+    }
 
+    public function grepVideoDuration($videoFile){
+
+        $durationCommand = '/usr/bin/ffmpeg -i  '.$videoFile.'  2>&1 | grep Duration | awk \'{print $2}\' | tr -d , ';
+        $command = new Command($durationCommand);
+
+        if ($command->execute()) {
+            $this->videoDuration = $command->getOutput();
+        }
     }
 
     public function itterateImages(){
@@ -87,6 +94,7 @@ class FaceDetector{
                 $this->detectFace($file);
             }
         }
+        return $this;
     }
 
     public function detectFace($file){
@@ -127,12 +135,38 @@ class FaceDetector{
 
         $newFile = dirname(__FILE__).DIRECTORY_SEPARATOR."faces".DIRECTORY_SEPARATOR.rand(1,100).".jpg";
 
-
         $imagick->setImageFormat("jpeg");
         file_put_contents ($newFile, $imagick->getImageBlob()); // works, or:
 
         $imagick->destroy();
         sleep(1);
+
+    }
+
+    public function comparePhotos(){
+        /**
+        $command = new Command('/home/almasry/projects/php/FaceDetector/comparison/openface/demos/compare.py '.$file);
+        if ($command->execute()) {
+
+            if (!empty($command->getOutput())){
+
+                foreach(preg_split("/((\r?\n)|(\r\n?))/", $command->getOutput()) as $face){
+                    $faceDimentions = explode(' ', $face);
+
+                    if(sizeof($faceDimentions)>3){
+                        //print_r($faceDimentions);
+
+                        $this->cropImage($file, $faceDimentions[0], $faceDimentions[1], $faceDimentions[2], $faceDimentions[3]);
+                    }
+
+                }
+            }
+        } else {
+            echo $command->getError();
+            $exitCode = $command->getExitCode();
+        }
+         * 
+         ***/
 
     }
 
