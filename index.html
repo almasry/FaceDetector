@@ -2,11 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>MovingImage Hackday 10.6.16 - Face Detection </title>
-</head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+
+    <title>MovingImage Hackday 10.6.16 - Face Detection </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $.getJSON( "data.json" , function( result ){
+                alert(result);
+                var data = result;
+            });
+        });
+    </script>
 
     <style>
         .fd_mi {
@@ -31,47 +41,38 @@
             text-align: right;
         }
     </style>
+
 </head>
 
 <body>
 
-<div class="fd_mi">
-    <div class="fd_logo">Face Detector -LOGO-</div>
+    <div class="fd_mi">
+        <div class="fd_logo">Face Detector -LOGO-</div>
 
-    <div class="fd_player">
+        <div class="fd_player">
+            <video id="face_detect_player" controls>
+                <source src="https://facedetector.mi24.tv/videos/video1.mp4" type="video/mp4">
+            </video>
+        </div>
 
-        <video id="face_detect_player" controls>
-            <source src="https://facedetector.mi24.tv/videos/video1.mp4" type="video/mp4">
-        </video>
+        <script>
+            $( document ).ready(function() {
+
+                console.log( "ready!" );
+
+                alert(1);
+
+                alert(data);
+
+            });
+        </script>
+
+        <div class="fd_images">
+            <a href=""><img src=""> 1. picture</a>
+        </div>
+
 
     </div>
-    <script>
-
-
-
-        $( document ).ready(function() {
-
-            alert(1);
-
-            var obj = $.parseJSON('data.json');
-
-            alert(obj);
-
-
-            console.log( "ready!" );
-        });
-
-
-    </script>
-
-    <div class="fd_images">
-
-        <a href=""><img src=""> 1. picture</a>
-
-    </div>
-
-
-</div>
 
 </body>
 </html>
