@@ -1,0 +1,12 @@
+{
+    "name": "almasry/face-detector",
+    "description": "An application that detects human faces in videos and clster them",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Almasry",
+            "email": "almasry@almasry.ws"
+        }
+    ],
+    "require": {}
+}
