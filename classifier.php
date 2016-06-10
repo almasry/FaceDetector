@@ -42,36 +42,14 @@ class FaceDetector{
 
         $videoFile = dirname(__FILE__).DIRECTORY_SEPARATOR."videos".DIRECTORY_SEPARATOR.$this->videoName;
 
-        /**
-         *
-        $ffmpeg = FFMpeg\FFMpeg::create(array(
-            'ffmpeg.binaries'  => '/usr/bin/ffmpeg',
-            'ffprobe.binaries' => '/usr/bin/ffprobe',
-            'timeout'          => 3600, // The timeout for the underlying process
-            'ffmpeg.threads'   => 12,   // The number of threads that FFMpeg should use
-        ));
-
-        $video = $ffmpeg->open($videoFile);
-        
-        $video
-            ->filters()->clip()
-            ->resize(new FFMpeg\Coordinate\Dimension(320, 240))
-            ->synchronize();
-        $video
-            ->frame(FFMpeg\Coordinate\TimeCode::fromSeconds(10))
-            ->save('frame.jpg');
-        $video
-            ->save(new FFMpeg\Format\Video\X264(), 'export-x264.mp4')
-            ->save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
-            ->save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
-         *
-         * ***/
-
         $imagesDir = dirname(__FILE__).DIRECTORY_SEPARATOR."images".DIRECTORY_SEPARATOR;
+
         $ffmpegCommand = '/usr/bin/ffmpeg -i '.$videoFile.' -r  1/1 '.$imagesDir.'$filename%03d.jpeg';
+
         $command = new Command($ffmpegCommand);
 
         $this->grepVideoDuration($videoFile);
+
         $this->saveVideoInfo();
 
         if ($command->execute()) {
@@ -85,6 +63,7 @@ class FaceDetector{
         $videoInfo = dirname(__FILE__).DIRECTORY_SEPARATOR.'videoInfo.json';
 
         $videoInfoFile = fopen($videoInfo, "wr+") or die("Unable to open file!");
+
         fwrite($videoInfoFile,
             json_encode(
                 [
@@ -92,12 +71,14 @@ class FaceDetector{
                     'videoURL'      => DIRECTORY_SEPARATOR.'videos'.DIRECTORY_SEPARATOR.$this->videoName
                 ]
             ));
+
         fclose($videoInfoFile);
     }
 
     public function grepVideoDuration($videoFile){
 
         $durationCommand = '/usr/bin/ffmpeg -i  '.$videoFile.'  2>&1 | grep Duration | awk \'{print $2}\' | tr -d , ';
+
         $command = new Command($durationCommand);
 
         if ($command->execute()) {
@@ -114,13 +95,14 @@ class FaceDetector{
         foreach ($dir as $fileinfo) {
             if (!$fileinfo->isDot()) {
                 $file = $dirName.$fileinfo->getFilename();
-                $this->detectFace($file);
+                $frameNumber = substr(ltrim($fileinfo->getFilename(), '0'), 0, -5);
+                $this->detectFace($file, $frameNumber);
             }
         }
         return $this;
     }
 
-    public function detectFace($file){
+    public function detectFace($file, $frameNumber){
 
         $command = new Command('./facedetect '.$file);
         if ($command->execute()) {
@@ -133,18 +115,15 @@ class FaceDetector{
                     if(sizeof($faceDimentions)>3){
                         //print_r($faceDimentions);
 
-                        $this->cropImage($file, $faceDimentions[0], $faceDimentions[1], $faceDimentions[2], $faceDimentions[3]);
+                        $this->cropImage($file, $faceDimentions[0], $faceDimentions[1], $faceDimentions[2], $faceDimentions[3], $frameNumber);
                     }
                     
                 }
             }
-        } else {
-            echo $command->getError();
-            $exitCode = $command->getExitCode();
         }
     }
 
-    public function cropImage($imagePath, $startX, $startY, $width, $height) {
+    public function cropImage($imagePath, $startX, $startY, $width, $height, $frameNumber) {
 
         ///usr/local/bin/facerec  FACEREC
 
@@ -156,7 +135,7 @@ class FaceDetector{
         $imagick = new \Imagick($imagePath);
         $imagick->cropImage($width, $height, $startX, $startY);
 
-        $newFile = dirname(__FILE__).DIRECTORY_SEPARATOR."faces".DIRECTORY_SEPARATOR.rand(1,100).".jpg";
+        $newFile = dirname(__FILE__).DIRECTORY_SEPARATOR."faces".DIRECTORY_SEPARATOR.$frameNumber.".jpg";
 
         $imagick->setImageFormat("jpeg");
         file_put_contents ($newFile, $imagick->getImageBlob()); // works, or:
@@ -167,6 +146,7 @@ class FaceDetector{
     }
 
     public function clusterPhotos(){
+        /**
         $command = new Command('/home/almasry/projects/php/FaceDetector/comparison/openface/demos/compare.py '.$file);
         if ($command->execute()) {
 
@@ -187,6 +167,8 @@ class FaceDetector{
             echo $command->getError();
             $exitCode = $command->getExitCode();
         }
+         *
+         * ****/
     }
 
 }

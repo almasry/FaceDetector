@@ -2,9 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b38189-a510-44a3-b616-04b0af1bd037" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data2.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/86.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person1/95.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person2/52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person2/58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person2/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/83.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person3/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person4/96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person5/85.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person6/48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person6/92.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person7/56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person7/88.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clustered_faces/person7/94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/79.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/83.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/faces/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video1.mp4" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustered_faces/person4/54.jpg" afterPath="$PROJECT_DIR$/clustered_faces/person4/54.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/video1.mp4" afterPath="$PROJECT_DIR$/videos/video1.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classifier.php" afterPath="$PROJECT_DIR$/classifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
     </list>
     <ignored path="FaceDetector.iws" />
@@ -30,8 +123,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="252">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,21 +133,31 @@
       <file leaf-file-name="classifier.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classifier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="1044">
+              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+            <state relative-caret-position="466">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data2.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +174,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classifier.php" />
         <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/data2.json" />
       </list>
     </option>
   </component>
@@ -86,7 +190,7 @@
     <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -111,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,7 +236,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,23 +312,24 @@
       <updated>1465528893514</updated>
       <workItem from="1465528894723" duration="9301000" />
       <workItem from="1465544476841" duration="13653000" />
+      <workItem from="1465558658369" duration="6425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22954000" />
+    <option name="totallyTimeSpent" value="29379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2625" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2371476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23991156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4375" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -245,8 +350,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34375" sideWeight="0.49806523" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23744541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625" sideWeight="0.49806523" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23991156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -264,6 +369,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classifier.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -276,7 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -284,9 +414,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#89#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -317,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -325,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,39 +460,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces/63.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facedetect">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/faces/63.jpg" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="446" column="9" selection-start-line="446" selection-start-column="9" selection-end-line="446" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -379,13 +477,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facedetect">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        <state relative-caret-position="466">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

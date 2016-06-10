@@ -21,7 +21,6 @@ class ResultsMatecher
 
     public function getPersonsInfo($personName, $rootDir){
 
-
         $dirName = dirname(__FILE__).$rootDir.DIRECTORY_SEPARATOR.$personName;
         $dir = new \DirectoryIterator($dirName);
 
@@ -33,7 +32,7 @@ class ResultsMatecher
             }
         }
 
-        $appearance=[];
+        $appearance= $this->calculateAppearanceSpans($dirName);
 
         $personInfo = [
             'name'      =>$personName,
@@ -42,6 +41,57 @@ class ResultsMatecher
         ];
 
         return $personInfo;
+    }
+
+    public function calculateAppearanceSpans($personDirectory)
+    {
+        $timePoints =[];
+
+        $personDirectory = new \DirectoryIterator($personDirectory);
+        foreach ($personDirectory as $fileinfo) {
+            if (!$fileinfo->isDot()) {
+                $timePoints[] = substr($fileinfo->getFilename(), 0, -4);
+            }
+        }
+        asort($timePoints);
+
+        return($this->calculateTimeSpans($timePoints));
+    }
+
+
+
+    public function calculateTimeSpans($timePoints) {
+
+        $timeSpans = [];
+
+        $timeSpanStart = 0;
+        $timeSpanEnd = 0;
+
+        foreach($timePoints as $timePoint) {
+
+            // check the start of a new timepan
+            if($timeSpanStart == 0) {
+                // initiate a timespan
+                $timeSpanStart = $timePoint;
+                $timeSpanEnd = $timePoint;
+            } else {
+                // check the end of a timespan
+                if($timePoint - $timeSpanEnd > 1) {
+                    // complete a timespan and write it in result array
+                    if($timeSpanEnd > $timeSpanStart){
+                        $timeSpans[] = ["start" => $timeSpanStart, "end" => $timeSpanEnd];
+                    }
+
+                    // reset
+                    $timeSpanStart = $timePoint;
+                    $timeSpanEnd = $timePoint;
+                } else {
+                    // check an extension of an running timespan
+                    $timeSpanEnd = $timePoint;
+                }
+            }
+        }
+        return $timeSpans;
     }
 
     public function getEncodedJsonResult(){
