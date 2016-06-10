@@ -8,17 +8,16 @@
     <title>MovingImage Hackday 10.6.16 - Face Detection </title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-    <script type="text/javascript">
-        var data;
-        $(document).ready(function(e) {
-            $.getJSON( "https://facedetector.mi24.tv/data.json" , function( result ){
-		alert(result);
-                data = result;
-            });
-        });
-
-
+    <script>
+	$(document).ready(function() {
+	    $.getJSON('data.json', function(result) {
+		var data = result.people;
+		data.forEach(
+		document.getElementById("people").innerHTML =
+		'<a href=""><img src="'+photo+'"> 1. picture</a>'
+		)
+	      });
+	    });
     </script>
 
     <style>
@@ -58,20 +57,8 @@
             </video>
         </div>
 
-        <script>
 
-                console.log( "ready!" );
-
-                alert(1);
-                console.log( "ready 2!" );
-
-                alert(data);
-                console.log( "ready 3!" );
-
-        </script>
-
-        <div class="fd_images">
-            <a href=""><img src=""> 1. picture</a>
+        <div id="people" class="fd_images">
         </div>
 
 
